@@ -37,3 +37,25 @@ C:\Users\Francisco I. Cazares\Documents\Visual Studio 2017\PuntodeVenta\PuntodeV
 C:\Users\Francisco I. Cazares\Documents\Visual Studio 2017\PuntodeVenta\PuntodeVenta\bin\Debug\Google.Protobuf.dll
 C:\Users\Francisco I. Cazares\Documents\Visual Studio 2017\PuntodeVenta\PuntodeVenta\bin\Debug\MySql.Data.xml
 C:\Users\Francisco I. Cazares\Documents\Visual Studio 2017\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.csproj.CopyComplete
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\bin\Debug\PuntodeVenta.exe.config
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\bin\Debug\PuntodeVenta.exe
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\bin\Debug\PuntodeVenta.pdb
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\bin\Debug\MySql.Data.dll
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\bin\Debug\Google.Protobuf.dll
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\bin\Debug\MySql.Data.xml
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.csprojAssemblyReference.cache
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Form1.resources
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Inventario.resources
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Login.resources
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.NuevaVenta.resources
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Properties.Resources.resources
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Recibos.resources
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Registro.resources
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Reportes.resources
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Ventas.resources
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.csproj.GenerateResource.cache
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.csproj.CoreCompileInputs.cache
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.csproj.CopyComplete
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.exe
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.pdb
+C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.producto.resources

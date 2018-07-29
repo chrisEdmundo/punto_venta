@@ -93,7 +93,7 @@ namespace PuntodeVenta
 
         private void button2_Click(object sender, EventArgs e)
         {
-            AbrirFormInPanel(new Productos());
+            AbrirFormInPanel(new producto());
 
         }
 

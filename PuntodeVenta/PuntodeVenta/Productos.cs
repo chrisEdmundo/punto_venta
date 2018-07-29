@@ -1,20 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace PuntodeVenta
+public class Class1
 {
-    public partial class Productos : Form
+    public class productos
     {
-        public Productos()
+
+        public Int64 Id { get; set; }
+        public String Nombre { get; set; }
+        public String Apellido { get; set; }
+        public String Direccion { get; set; }
+        public String Fecha_Nac { get; set; }
+
+        public Alumno() { }
+
+        public Alumno(Int64 pId, String pNombre, String pApellido, String pDireccion, String pFecha_Nac)
+
         {
-            InitializeComponent();
+            this.Id = pId;
+            this.Nombre = pNombre;
+            this.Apellido = pApellido;
+            this.Direccion = pDireccion;
+            this.Fecha_Nac = pFecha_Nac;
+
         }
+
+
     }
 }

@@ -98,8 +98,9 @@
             this.textBox2.Location = new System.Drawing.Point(273, 167);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(236, 15);
+            this.textBox2.Size = new System.Drawing.Size(237, 15);
             this.textBox2.TabIndex = 30;
+            this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // label5
             // 
@@ -124,6 +125,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(237, 15);
             this.textBox4.TabIndex = 35;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label6
             // 
@@ -158,8 +160,9 @@
             this.textBox5.Location = new System.Drawing.Point(273, 131);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(236, 15);
+            this.textBox5.Size = new System.Drawing.Size(237, 15);
             this.textBox5.TabIndex = 40;
+            this.textBox5.TextChanged += new System.EventHandler(this.TextBox5_TextChanged);
             // 
             // textBox6
             // 
@@ -172,6 +175,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(237, 15);
             this.textBox6.TabIndex = 39;
+            this.textBox6.TextChanged += new System.EventHandler(this.TextBox6_TextChanged);
             // 
             // button1
             // 
@@ -189,6 +193,7 @@
             this.button1.TabIndex = 43;
             this.button1.Text = "INGRESAR";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -223,8 +228,10 @@
             this.textBox3.Location = new System.Drawing.Point(273, 239);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(236, 15);
+            this.textBox3.PasswordChar = '*';
+            this.textBox3.Size = new System.Drawing.Size(237, 15);
             this.textBox3.TabIndex = 36;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label4
             // 
