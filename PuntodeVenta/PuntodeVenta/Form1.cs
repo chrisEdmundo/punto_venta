@@ -12,11 +12,13 @@ using System.Runtime.InteropServices;
 
 namespace PuntodeVenta
 {
+    
     public partial class Form1 : Form
     {
+        
+
         public Form1()
-        {
-            InitializeComponent();
+        {            InitializeComponent();
         }
         //[Dllimport("user32")]
 
@@ -128,6 +130,11 @@ namespace PuntodeVenta
         {
             AbrirFormInPanel(new Registro());
 
+        }
+
+        private void Form1Load(object sender, EventArgs e)
+        {
+            AbrirFormInPanel(new Ventas());
         }
     }
 }

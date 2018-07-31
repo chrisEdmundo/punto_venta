@@ -85,9 +85,9 @@
             this.label1.Location = new System.Drawing.Point(182, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 30);
+            this.label1.Size = new System.Drawing.Size(143, 30);
             this.label1.TabIndex = 31;
-            this.label1.Text = "INICIAR SESION";
+            this.label1.Text = "REGISTRAR";
             // 
             // textBox2
             // 

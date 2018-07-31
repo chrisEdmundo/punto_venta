@@ -55,9 +55,28 @@ namespace PuntodeVenta
 
         }
 
-        private void btnIngresar_Click(object sender, EventArgs e)
+        private void btnIngresar_Click_1(object sender, EventArgs e)
         {
+            int r= regUs.login(textBox1.Text, textBox2.Text);
+            if (r > 0)
+            {
+                Form1 form = new Form1();
+                form.Show();
+                Login form2 = new Login();
+                form2.Hide();
+            }
+            else
+            {
+                MessageBox.Show("ERROR");
+            }
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Registro form = new Registro();
+            form.Show();
+            Login form2 = new Login();
+            form2.Hide();
         }
     }
 }

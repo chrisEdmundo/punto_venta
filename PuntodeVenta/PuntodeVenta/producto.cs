@@ -20,16 +20,7 @@ namespace PuntodeVenta
 
         private void producto_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = acciones.buscarProductos();
-            using (MySqlConnection Conx = conection.ObtenerConexion())
-            {
-                MySqlCommand cm = new MySqlCommand("select * from categorias", Conx);
-                MySqlDataReader readr = cm.ExecuteReader();
-                while (readr.Read())
-                {
-                    listBox1.Items.Add(readr.GetString(1));
-                }
-            }
+            acciones.buscar(dataGridView1, listBox1);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -37,9 +28,15 @@ namespace PuntodeVenta
 
         }
 
-        private void btnAddProducts_Click(object sender, EventArgs e)
+        private void btnSaveProducts_Click(object sender, EventArgs e)
         {
-            acciones.agregar(textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox6.Text);
+            acciones.agregar(listBox1.SelectedIndex, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox6.Text);
+            acciones.buscar(dataGridView1, listBox1);
+        }
+
+        private void btnDeleteProducts_Click(object sender, EventArgs e)
+        {
+            acciones.borrar(dataGridView1.SelectedRows);
         }
     }
 }
