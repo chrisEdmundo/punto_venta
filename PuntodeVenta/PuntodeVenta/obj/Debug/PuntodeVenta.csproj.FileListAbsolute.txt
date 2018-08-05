@@ -47,7 +47,6 @@ C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeV
 C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Form1.resources
 C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Inventario.resources
 C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Login.resources
-C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.NuevaVenta.resources
 C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Properties.Resources.resources
 C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Recibos.resources
 C:\Users\Francisco I. Cazares\Documents\GitHub\punto_venta\PuntodeVenta\PuntodeVenta\obj\Debug\PuntodeVenta.Registro.resources

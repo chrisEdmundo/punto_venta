@@ -13,6 +13,7 @@ namespace PuntodeVenta
 {
     public partial class Registro : Form
     {
+        int validar = 0;
         public Registro()
         {
             InitializeComponent();
@@ -30,14 +31,21 @@ namespace PuntodeVenta
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            int r = regUs.agr(textBox6.Text, textBox5.Text, textBox2.Text, textBox4.Text, textBox3.Text);
-            if (r > 0)
+            if (validar>0)
             {
-                MessageBox.Show("usuario registrado");
+                int r = acciones.Agregar_usuario(comboBox1.SelectedIndex, textBox6.Text, textBox5.Text, textBox2.Text, textBox4.Text, textBox3.Text);
+                if (r > 0)
+                {
+                    MessageBox.Show("usuario registrado");
+                }
+                else
+                {
+                    MessageBox.Show("ERROR");
+                }
             }
             else
             {
-                MessageBox.Show("ERROR");
+                MessageBox.Show("Un campo esta mal ingresado");
             }
         }
 
@@ -48,13 +56,13 @@ namespace PuntodeVenta
             {
                 label7.ForeColor = Color.LawnGreen;
                 label7.Text = "NOMBRE:";
-                pictureBox1.Visible = true;
+                validar += 1;
             }
             else
             {
                 label7.ForeColor = Color.Red;
                 label7.Text = "NOMBRE:";
-                pictureBox1.Visible = false;
+                validar *= 0;
             }
         }
 
@@ -65,13 +73,13 @@ namespace PuntodeVenta
             {
                 label6.ForeColor = Color.LawnGreen;
                 label6.Text = "APELLIDO PATERNO:";
-                pictureBox1.Visible = true;
+                validar += 1;
             }
             else
             {
                 label6.ForeColor = Color.Red;
                 label6.Text = "APELLIDO PATERNO:";
-                pictureBox1.Visible = false;
+                validar *= 0;
             }
         }
 
@@ -82,13 +90,13 @@ namespace PuntodeVenta
             {
                 label3.ForeColor = Color.LawnGreen;
                 label3.Text = "APELLIDO MATERNO:";
-                pictureBox1.Visible = true;
+                validar += 1;
             }
             else
             {
                 label3.ForeColor = Color.Red;
                 label3.Text = "APELLIDO MATERNO:";
-                pictureBox1.Visible = false;
+                validar *= 0;
             }
         }
 
@@ -99,13 +107,13 @@ namespace PuntodeVenta
             {
                 label5.ForeColor = Color.LawnGreen;
                 label5.Text = "TELEFONO:";
-                pictureBox1.Visible = true;
+                validar += 1;
             }
             else
             {
                 label5.ForeColor = Color.Red;
                 label5.Text = "TELEFONO:";
-                pictureBox1.Visible = false;
+                validar *= 0;
             }
         }
 
@@ -116,19 +124,30 @@ namespace PuntodeVenta
             {
                 label4.ForeColor = Color.LawnGreen;
                 label4.Text = "CONTRASEÑA:";
-                pictureBox1.Visible = true;
+                validar += 1;
             }
             else
             {
                 label4.ForeColor = Color.Red;
                 label4.Text = "CONTRASEÑA:";
-                pictureBox1.Visible = false;
+                validar *= 0;
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void load(object sender, EventArgs e)
+        {
+            button1.Visible = false;
+            acciones.Status(comboBox1);
         }
     }
 }

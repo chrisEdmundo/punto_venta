@@ -15,10 +15,11 @@ namespace PuntodeVenta
     
     public partial class Form1 : Form
     {
-        
-
-        public Form1()
-        {            InitializeComponent();
+        int nivel;
+        public Form1(int user)
+        {
+            InitializeComponent();
+            this.nivel = user;
         }
         //[Dllimport("user32")]
 
@@ -30,7 +31,7 @@ namespace PuntodeVenta
         {
             if (MenuVertical.Width ==170)
             {
-                MenuVertical.Width = 50;
+                MenuVertical.Width = 55;
             }
             else
             {
@@ -135,6 +136,23 @@ namespace PuntodeVenta
         private void Form1Load(object sender, EventArgs e)
         {
             AbrirFormInPanel(new Ventas());
+            if (nivel == 1)
+            {
+
+            }
+            if (nivel == 2)
+            {
+                button2.Visible = false;
+                button6.Visible = false;
+            }
+            if (nivel == 3)
+            {
+                button2.Visible = false;
+                button3.Visible = false;
+                button4.Visible = false;
+                button6.Visible = false;
+
+            }
         }
     }
 }

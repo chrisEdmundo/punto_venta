@@ -16,5 +16,10 @@ namespace PuntodeVenta
         {
             InitializeComponent();
         }
+
+        private void Inventario_Load(object sender, EventArgs e)
+        {
+            acciones.Inventario(listView1);
+        }
     }
 }

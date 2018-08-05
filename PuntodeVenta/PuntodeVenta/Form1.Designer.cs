@@ -67,7 +67,7 @@
             this.MenuVertical.Location = new System.Drawing.Point(0, 0);
             this.MenuVertical.Margin = new System.Windows.Forms.Padding(2);
             this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(50, 609);
+            this.MenuVertical.Size = new System.Drawing.Size(65, 609);
             this.MenuVertical.TabIndex = 0;
             this.MenuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuVertical_Paint);
             // 
@@ -80,7 +80,7 @@
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Image = global::PuntodeVenta.Properties.Resources.group_of_people_in_white_a_black_rounded_square_icon_icons_com_70722;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 329);
+            this.button6.Location = new System.Drawing.Point(4, 375);
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(183, 37);
@@ -98,7 +98,7 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Image = global::PuntodeVenta.Properties.Resources.professor_teaching_on_a_blackboard_in_white_shapes_inside_a_black_rounded_square_icon_icons_com_70639;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(-4, 278);
+            this.button1.Location = new System.Drawing.Point(2, 136);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(189, 37);
@@ -116,7 +116,7 @@
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.Image = global::PuntodeVenta.Properties.Resources.copyblackinterfacesymboloftwopapersheets_79854;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(-4, 224);
+            this.button4.Location = new System.Drawing.Point(2, 196);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(191, 37);
@@ -134,7 +134,7 @@
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Image = global::PuntodeVenta.Properties.Resources.three_folders_in_black_and_white_icon_icons_com_70593;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(-4, 166);
+            this.button3.Location = new System.Drawing.Point(2, 255);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(185, 37);
@@ -152,7 +152,7 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Image = global::PuntodeVenta.Properties.Resources.truck_13241;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(-4, 109);
+            this.button2.Location = new System.Drawing.Point(2, 313);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(185, 37);
@@ -170,7 +170,7 @@
             this.btnVenta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnVenta.Image = global::PuntodeVenta.Properties.Resources.shoppingcartfull_compras_carr_13340;
             this.btnVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVenta.Location = new System.Drawing.Point(-4, 53);
+            this.btnVenta.Location = new System.Drawing.Point(0, 74);
             this.btnVenta.Margin = new System.Windows.Forms.Padding(2);
             this.btnVenta.Name = "btnVenta";
             this.btnVenta.Size = new System.Drawing.Size(185, 37);
@@ -182,7 +182,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::PuntodeVenta.Properties.Resources.ingress;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(2, 2);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(50, 49);
@@ -198,10 +198,10 @@
             this.BarraTitulo.Controls.Add(this.pictureBox4);
             this.BarraTitulo.Controls.Add(this.pictureBox1);
             this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BarraTitulo.Location = new System.Drawing.Point(50, 0);
+            this.BarraTitulo.Location = new System.Drawing.Point(65, 0);
             this.BarraTitulo.Margin = new System.Windows.Forms.Padding(2);
             this.BarraTitulo.Name = "BarraTitulo";
-            this.BarraTitulo.Size = new System.Drawing.Size(962, 49);
+            this.BarraTitulo.Size = new System.Drawing.Size(947, 49);
             this.BarraTitulo.TabIndex = 1;
             this.BarraTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.BarraTitulo_Paint);
             // 
@@ -209,7 +209,7 @@
             // 
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Image = global::PuntodeVenta.Properties.Resources.expand_38551;
-            this.pictureBox5.Location = new System.Drawing.Point(808, 2);
+            this.pictureBox5.Location = new System.Drawing.Point(793, 2);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(35, 31);
@@ -222,7 +222,7 @@
             // 
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.Image = global::PuntodeVenta.Properties.Resources.maximizethewindow_theapplication_maximizar_2873;
-            this.pictureBox6.Location = new System.Drawing.Point(808, 2);
+            this.pictureBox6.Location = new System.Drawing.Point(793, 2);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(35, 31);
@@ -235,7 +235,7 @@
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.Image = global::PuntodeVenta.Properties.Resources.minimize_thewindow_theapplication_2872;
-            this.pictureBox3.Location = new System.Drawing.Point(866, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(851, 2);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(32, 31);
@@ -248,7 +248,7 @@
             // 
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.Image = global::PuntodeVenta.Properties.Resources.closewindowapplication_cerca_ventan_2874;
-            this.pictureBox4.Location = new System.Drawing.Point(918, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(903, 2);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(35, 31);
@@ -275,10 +275,10 @@
             this.panelContenerdo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panelContenerdo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenerdo.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panelContenerdo.Location = new System.Drawing.Point(50, 49);
+            this.panelContenerdo.Location = new System.Drawing.Point(65, 49);
             this.panelContenerdo.Margin = new System.Windows.Forms.Padding(2);
             this.panelContenerdo.Name = "panelContenerdo";
-            this.panelContenerdo.Size = new System.Drawing.Size(962, 560);
+            this.panelContenerdo.Size = new System.Drawing.Size(947, 560);
             this.panelContenerdo.TabIndex = 2;
             this.panelContenerdo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenerdo_Paint);
             // 

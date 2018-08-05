@@ -47,9 +47,10 @@
             this.btnAddProducts.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddProducts.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnAddProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAddProducts.Location = new System.Drawing.Point(748, 449);
+            this.btnAddProducts.Location = new System.Drawing.Point(509, 223);
+            this.btnAddProducts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAddProducts.Name = "btnAddProducts";
-            this.btnAddProducts.Size = new System.Drawing.Size(232, 45);
+            this.btnAddProducts.Size = new System.Drawing.Size(174, 37);
             this.btnAddProducts.TabIndex = 7;
             this.btnAddProducts.Text = "IMPRIMIR";
             this.btnAddProducts.UseVisualStyleBackColor = false;
@@ -59,9 +60,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Elephant", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(231, 31);
+            this.label2.Location = new System.Drawing.Point(173, 25);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(373, 33);
+            this.label2.Size = new System.Drawing.Size(304, 26);
             this.label2.TabIndex = 6;
             this.label2.Text = "||  Buscar reportes de ventas ";
             // 
@@ -70,9 +72,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Elephant", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(44, 24);
+            this.label1.Location = new System.Drawing.Point(33, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(173, 43);
+            this.label1.Size = new System.Drawing.Size(138, 35);
             this.label1.TabIndex = 5;
             this.label1.Text = "Reportes";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -113,9 +116,10 @@
             "31"});
             this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.textBox1.Location = new System.Drawing.Point(165, 233);
+            this.textBox1.Location = new System.Drawing.Point(57, 137);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(80, 22);
+            this.textBox1.Size = new System.Drawing.Size(61, 20);
             this.textBox1.TabIndex = 9;
             // 
             // textBox2
@@ -135,16 +139,18 @@
             "12"});
             this.textBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.textBox2.Location = new System.Drawing.Point(271, 233);
+            this.textBox2.Location = new System.Drawing.Point(136, 137);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(88, 22);
+            this.textBox2.Size = new System.Drawing.Size(67, 20);
             this.textBox2.TabIndex = 10;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(382, 233);
+            this.textBox3.Location = new System.Drawing.Point(219, 137);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.Size = new System.Drawing.Size(76, 20);
             this.textBox3.TabIndex = 11;
             // 
             // label3
@@ -152,9 +158,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label3.Location = new System.Drawing.Point(169, 194);
+            this.label3.Location = new System.Drawing.Point(60, 106);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(297, 26);
+            this.label3.Size = new System.Drawing.Size(237, 21);
             this.label3.TabIndex = 12;
             this.label3.Text = "DIA     ||     MES     ||     AÑO";
             // 
@@ -168,18 +175,19 @@
             this.btnSaveProducts.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSaveProducts.Image = global::PuntodeVenta.Properties.Resources.search_book_open_search_locate_6178;
             this.btnSaveProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSaveProducts.Location = new System.Drawing.Point(719, 219);
+            this.btnSaveProducts.Location = new System.Drawing.Point(491, 106);
+            this.btnSaveProducts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSaveProducts.Name = "btnSaveProducts";
-            this.btnSaveProducts.Size = new System.Drawing.Size(289, 45);
+            this.btnSaveProducts.Size = new System.Drawing.Size(217, 37);
             this.btnSaveProducts.TabIndex = 8;
             this.btnSaveProducts.Text = "BUSCAR VENTAS";
             this.btnSaveProducts.UseVisualStyleBackColor = false;
             // 
             // Reportes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1227, 705);
+            this.ClientSize = new System.Drawing.Size(793, 449);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -189,6 +197,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Reportes";
             this.Text = "Reportes";
             this.ResumeLayout(false);

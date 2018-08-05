@@ -19,8 +19,13 @@ namespace PuntodeVenta
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = acciones.vender(textBox1.Text);
+            acciones.Vender(textBox1.Text,listView1);
             
+        }
+
+        private void Ventas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
