@@ -118,14 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="minimizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icono7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icono7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-rounded-empty-sheet_icon-icons.com_73253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-rounded-empty-sheet_icon-icons.com_73253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monitor_computer_13980" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monitor_computer_13980.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="group-of-people-in-white-a-black-rounded-square_icon-icons.com_70722" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\group-of-people-in-white-a-black-rounded-square_icon-icons.com_70722.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="copyblackinterfacesymboloftwopapersheets_79854" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\copyblackinterfacesymboloftwopapersheets_79854.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="search_book_open_search_locate_6178" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_book_open_search_locate_6178.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="descarga1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,11 +145,32 @@
   <data name="folder-add_icon-icons.com_52433" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder-add_icon-icons.com_52433.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bluepen_azul__12511" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluepen_azul__12511.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery_transportation_4577" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery_transportation_4577.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="58497" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\58497.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowminimize_104316" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowminimize_104316.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ab91d61e92f472b5a80d23a89a0ca56c-bot-n-maximizar-ventana-plana-icono-by-vexels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ab91d61e92f472b5a80d23a89a0ca56c-bot-n-maximizar-ventana-plana-icono-by-vexels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping-basket-add256_24909" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopping-basket-add256_24909.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blueshoppingcart_azul_12543 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blueshoppingcart_azul_12543 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_5664" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_5664.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="three-folders-in-black-and-white_icon-icons.com_70593" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\three-folders-in-black-and-white_icon-icons.com_70593.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart_icon-icons.com_67861" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart_icon-icons.com_67861.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="restaurar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\restaurar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,14 +178,17 @@
   <data name="maximizethewindow_theapplication_maximizar_2873" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximizethewindow_theapplication_maximizar_2873.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="three-folders-in-black-and-white_icon-icons.com_70593" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\three-folders-in-black-and-white_icon-icons.com_70593.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="professor-teaching-on-a-blackboard-in-white-shapes-inside-a-black-rounded-square_icon-icons.com_70639" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\professor-teaching-on-a-blackboard-in-white-shapes-inside-a-black-rounded-square_icon-icons.com_70639.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="blue_chartstats_until_azu_12526" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_chartstats_until_azu_12526.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shoppingcart_accept_compra_12832" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shoppingcart_accept_compra_12832.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluefilefolder_azul_archivo_12582 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluefilefolder_azul_archivo_12582 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="minimize_thewindow_theapplication_2872" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimize_thewindow_theapplication_2872.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +196,11 @@
   <data name="three-horizontal-rods_318-35214" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\three-horizontal-rods_318-35214.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cart_icon-icons.com_67861" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cart_icon-icons.com_67861.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1492790945-39minimize_84242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1492790945-39minimize_84242.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="groups_users_people_4517" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\groups_users_people_4517.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cartoon-flame-logo-design-5a28b6ceace355.1397830715126176787082" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cartoon-flame-logo-design-5a28b6ceace355.1397830715126176787082.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,8 +211,8 @@
   <data name="shoppingcartfull_compras_carr_13340" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shoppingcartfull_compras_carr_13340.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ingress" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ingress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="shopping-basket-add256_24909" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping-basket-add256_24909.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="expand_38551" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\expand_38551.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,19 +226,34 @@
   <data name="depositphotos_42608463-stock-photo-blue-waves-on-white-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_42608463-stock-photo-blue-waves-on-white-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="emptyshoppingcart_shopingcart_carritodelacompravacio_4565" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emptyshoppingcart_shopingcart_carritodelacompravacio_4565.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shopping-icon-2184065_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shopping-icon-2184065_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icono7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icono7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ingress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbrilogout_99583" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mbrilogout_99583.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file-28_icon-icons.com_64155" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-28_icon-icons.com_64155.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_copy_paste_12539" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_copy_paste_12539.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="closewindowapplication_cerca_ventan_2874" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\closewindowapplication_cerca_ventan_2874.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="58497" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\58497.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="copyblackinterfacesymboloftwopapersheets_79854" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copyblackinterfacesymboloftwopapersheets_79854.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="search_book_open_search_locate_6178" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search_book_open_search_locate_6178.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blue_users_customers_clients_people_12438 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_users_customers_clients_people_12438 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

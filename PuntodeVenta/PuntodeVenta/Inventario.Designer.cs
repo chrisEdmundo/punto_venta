@@ -47,24 +47,24 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Elephant", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(110, 126);
+            this.label4.Location = new System.Drawing.Point(8, 85);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(255, 26);
+            this.label4.Size = new System.Drawing.Size(246, 23);
             this.label4.TabIndex = 27;
             this.label4.Text = "Resultado de inventario:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label3.Location = new System.Drawing.Point(160, 80);
+            this.label3.Location = new System.Drawing.Point(15, 435);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 21);
+            this.label3.Size = new System.Drawing.Size(91, 19);
             this.label3.TabIndex = 26;
             this.label3.Text = "Categoria:";
             // 
@@ -78,7 +78,7 @@
             this.btnSaveProducts.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSaveProducts.Image = global::PuntodeVenta.Properties.Resources.search_book_open_search_locate_6178;
             this.btnSaveProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSaveProducts.Location = new System.Drawing.Point(444, 65);
+            this.btnSaveProducts.Location = new System.Drawing.Point(383, 420);
             this.btnSaveProducts.Margin = new System.Windows.Forms.Padding(2);
             this.btnSaveProducts.Name = "btnSaveProducts";
             this.btnSaveProducts.Size = new System.Drawing.Size(255, 50);
@@ -89,24 +89,24 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Elephant", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(216, 23);
+            this.label2.Location = new System.Drawing.Point(174, 20);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 26);
+            this.label2.Size = new System.Drawing.Size(215, 23);
             this.label2.TabIndex = 23;
             this.label2.Text = "||  Buscar productos";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Elephant", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(65, 16);
+            this.label1.Location = new System.Drawing.Point(23, 13);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 35);
+            this.label1.Size = new System.Drawing.Size(145, 32);
             this.label1.TabIndex = 22;
             this.label1.Text = "Inventario";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -119,7 +119,7 @@
             "Dulceria"});
             this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.textBox1.Location = new System.Drawing.Point(251, 83);
+            this.textBox1.Location = new System.Drawing.Point(106, 438);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(152, 20);
@@ -135,10 +135,12 @@
             this.unidades,
             this.precio,
             this.codigo});
-            this.listView1.Location = new System.Drawing.Point(12, 155);
+            this.listView1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView1.ForeColor = System.Drawing.SystemColors.Control;
+            this.listView1.Location = new System.Drawing.Point(12, 111);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(696, 344);
+            this.listView1.Size = new System.Drawing.Size(759, 293);
             this.listView1.TabIndex = 29;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;

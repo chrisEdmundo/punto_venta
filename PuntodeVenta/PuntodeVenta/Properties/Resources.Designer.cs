@@ -19,7 +19,7 @@ namespace PuntodeVenta.Properties {
     // a través de una herramienta como ResGen o Visual Studio.
     // Para agregar o quitar un miembro, edite el archivo .ResX y, a continuación, vuelva a ejecutar ResGen
     // con la opción /str o recompile su proyecto de VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,6 +63,16 @@ namespace PuntodeVenta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1492790945_39minimize_84242 {
+            get {
+                object obj = ResourceManager.GetObject("1492790945-39minimize_84242", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _58497 {
             get {
                 object obj = ResourceManager.GetObject("58497", resourceCulture);
@@ -76,6 +86,66 @@ namespace PuntodeVenta.Properties {
         internal static System.Drawing.Bitmap ab91d61e92f472b5a80d23a89a0ca56c_bot_n_maximizar_ventana_plana_icono_by_vexels {
             get {
                 object obj = ResourceManager.GetObject("ab91d61e92f472b5a80d23a89a0ca56c-bot-n-maximizar-ventana-plana-icono-by-vexels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blue_chartstats_until_azu_12526 {
+            get {
+                object obj = ResourceManager.GetObject("blue_chartstats_until_azu_12526", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blue_copy_paste_12539 {
+            get {
+                object obj = ResourceManager.GetObject("blue_copy_paste_12539", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blue_users_customers_clients_people_12438__1_ {
+            get {
+                object obj = ResourceManager.GetObject("blue_users_customers_clients_people_12438 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bluefilefolder_azul_archivo_12582__2_ {
+            get {
+                object obj = ResourceManager.GetObject("bluefilefolder_azul_archivo_12582 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bluepen_azul__12511 {
+            get {
+                object obj = ResourceManager.GetObject("bluepen_azul__12511", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blueshoppingcart_azul_12543__1_ {
+            get {
+                object obj = ResourceManager.GetObject("blueshoppingcart_azul_12543 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,6 +193,26 @@ namespace PuntodeVenta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap database_5664 {
+            get {
+                object obj = ResourceManager.GetObject("database_5664", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delivery_transportation_4577 {
+            get {
+                object obj = ResourceManager.GetObject("delivery_transportation_4577", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap depositphotos_42608463_stock_photo_blue_waves_on_white_background {
             get {
                 object obj = ResourceManager.GetObject("depositphotos_42608463-stock-photo-blue-waves-on-white-background", resourceCulture);
@@ -153,9 +243,39 @@ namespace PuntodeVenta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap emptyshoppingcart_shopingcart_carritodelacompravacio_4565 {
+            get {
+                object obj = ResourceManager.GetObject("emptyshoppingcart_shopingcart_carritodelacompravacio_4565", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap expand_38551 {
             get {
                 object obj = ResourceManager.GetObject("expand_38551", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_28_icon_icons_com_64155 {
+            get {
+                object obj = ResourceManager.GetObject("file-28_icon-icons.com_64155", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_rounded_empty_sheet_icon_icons_com_73253 {
+            get {
+                object obj = ResourceManager.GetObject("file-rounded-empty-sheet_icon-icons.com_73253", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +296,16 @@ namespace PuntodeVenta.Properties {
         internal static System.Drawing.Bitmap group_of_people_in_white_a_black_rounded_square_icon_icons_com_70722 {
             get {
                 object obj = ResourceManager.GetObject("group-of-people-in-white-a-black-rounded-square_icon-icons.com_70722", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap groups_users_people_4517 {
+            get {
+                object obj = ResourceManager.GetObject("groups_users_people_4517", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,6 +353,16 @@ namespace PuntodeVenta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mbrilogout_99583 {
+            get {
+                object obj = ResourceManager.GetObject("mbrilogout_99583", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu_alt_256 {
             get {
                 object obj = ResourceManager.GetObject("menu-alt-256", resourceCulture);
@@ -246,6 +386,16 @@ namespace PuntodeVenta.Properties {
         internal static System.Drawing.Bitmap minimize_thewindow_theapplication_2872 {
             get {
                 object obj = ResourceManager.GetObject("minimize_thewindow_theapplication_2872", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap monitor_computer_13980 {
+            get {
+                object obj = ResourceManager.GetObject("monitor_computer_13980", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -357,6 +507,16 @@ namespace PuntodeVenta.Properties {
         internal static System.Drawing.Bitmap truck_13241 {
             get {
                 object obj = ResourceManager.GetObject("truck_13241", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap windowminimize_104316 {
+            get {
+                object obj = ResourceManager.GetObject("windowminimize_104316", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

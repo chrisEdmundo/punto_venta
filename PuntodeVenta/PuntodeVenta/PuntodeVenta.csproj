@@ -237,5 +237,53 @@
   <ItemGroup>
     <None Include="Resources\search_book_open_search_locate_6178.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emptyshoppingcart_shopingcart_carritodelacompravacio_4565.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_5664.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-28_icon-icons.com_64155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor_computer_13980.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery_transportation_4577.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groups_users_people_4517.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mbrilogout_99583.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowminimize_104316.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492790945-39minimize_84242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-rounded-empty-sheet_icon-icons.com_73253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueshoppingcart_azul_12543 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_chartstats_until_azu_12526.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluefilefolder_azul_archivo_12582 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_copy_paste_12539.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluepen_azul__12511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_users_customers_clients_people_12438 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
