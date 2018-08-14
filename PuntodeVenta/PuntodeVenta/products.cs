@@ -29,19 +29,4 @@ namespace PuntodeVenta
             this.codigo = codigo;
         }
     }
-    public class articulos
-    {
-        public String nombre { get; set; }
-        public String marca { get; set; }
-        public String precio { get; set; }
-
-        public articulos() { }
-
-        public articulos(String nombre, String marca,String precio)
-        {
-            this.nombre = nombre;
-            this.marca = marca;
-            this.precio = precio;
-        }
-    }
 }

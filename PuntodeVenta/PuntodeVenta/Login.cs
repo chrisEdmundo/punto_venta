@@ -12,6 +12,7 @@ namespace PuntodeVenta
 {
     public partial class Login : Form
     {
+        string usuario = "";
         public Login()
         {
             InitializeComponent();
@@ -60,15 +61,18 @@ namespace PuntodeVenta
             int r= acciones.Login(textBox1.Text, textBox2.Text);
             if (r > 0)
             {
-                Form1 form = new Form1(r);
+                Form1 form = new Form1(r, usuario);
+                acciones.usuario(textBox1.Text, textBox2.Text, form.label1);
                 form.Show();
                 Login form2 = new Login();
-                form2.Hide();
+                form2.Close();
             }
             else
             {
                 MessageBox.Show("ERROR");
             }
+            textBox1.Text = "";
+            textBox2.Text = "";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -82,6 +86,7 @@ namespace PuntodeVenta
 
         private void load(object sender, EventArgs e)
         {
+            button1.Visible = false;
         }
     }
 }

@@ -16,17 +16,15 @@ namespace PuntodeVenta
     public partial class Form1 : Form
     {
         int nivel;
-        public Form1(int user)
+        string usuario;
+        public Form1(int nivel,string usuario)
         {
             InitializeComponent();
-            this.nivel = user;
+            this.nivel = nivel;
+            this.usuario = usuario;
         }
         //[Dllimport("user32")]
-
-
-
-
-
+        
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             if (MenuVertical.Width ==170)
@@ -41,7 +39,8 @@ namespace PuntodeVenta
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
+            //Application.Exit();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -73,8 +72,7 @@ namespace PuntodeVenta
         {
 
         }
-
-
+        
         private void AbrirFormInPanel(object Formhijo)
         {
             if (this.panelContenerdo.Controls.Count > 0)
@@ -86,11 +84,10 @@ namespace PuntodeVenta
             this.panelContenerdo.Tag = fh;
             fh.Show();
         }
-
-
+        
         private void btnVenta_Click(object sender, EventArgs e)
         {
-            AbrirFormInPanel(new Ventas());
+            AbrirFormInPanel(new Ventas(label1.Text));
 
         }
 
@@ -135,23 +132,44 @@ namespace PuntodeVenta
 
         private void Form1Load(object sender, EventArgs e)
         {
-            AbrirFormInPanel(new Ventas());
+            AbrirFormInPanel(new Ventas(label1.Text));
             if (nivel == 1)
             {
+                button3.Visible = false;
+                button4.Visible = false;
 
             }
             if (nivel == 2)
             {
                 button2.Visible = false;
+                button3.Visible = false;
+                button4.Visible = false;
                 button6.Visible = false;
             }
             if (nivel == 3)
             {
+                button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
                 button4.Visible = false;
                 button6.Visible = false;
 
+            }
+        }
+        int posY = 0;
+        int posX =0;
+        private void BarraTitulo_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(e.Button != MouseButtons.Left)
+            {
+                posX = e.X;
+                posY = e.Y;
+
+            }
+            else
+            {
+                Left = Left + (e.X - posX);
+                Top = Top + (e.Y - posY);
             }
         }
     }

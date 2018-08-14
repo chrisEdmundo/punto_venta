@@ -42,6 +42,12 @@ namespace PuntodeVenta
                 {
                     MessageBox.Show("ERROR");
                 }
+                comboBox1.Text = "";
+                textBox6.Text = "";
+                textBox5.Text = "";
+                textBox2.Text = "";
+                textBox4.Text = "";
+                textBox3.Text = "";
             }
             else
             {
@@ -147,7 +153,8 @@ namespace PuntodeVenta
         private void load(object sender, EventArgs e)
         {
             button1.Visible = false;
-            acciones.Status(comboBox1);
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
         }
     }
 }

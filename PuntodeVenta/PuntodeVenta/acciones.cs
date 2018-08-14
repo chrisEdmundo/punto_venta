@@ -25,11 +25,10 @@ namespace PuntodeVenta
             using (MySqlConnection Conx = conection.ObtenerConexion())
             {
                 MySqlCommand Comando = new MySqlCommand(string.Format
-                    ("insert into usuarios (nombre,apaterno,amaterno,telefono,password,id_status) values('{0}','{1}','{2}','{3}','{4}','{5}')", n, ap, am, t, c, s), Conx);
+                    ("insert into usuarios (nombre,apaterno,amaterno,telefono,password,status) values('{0}','{1}','{2}','{3}','{4}','{5}')", n, ap, am, t, c, s), Conx);
                 retorno = Comando.ExecuteNonQuery();
                 Conx.Close();
             }
-
 
             return retorno;
         }
@@ -40,7 +39,7 @@ namespace PuntodeVenta
             string n = Encrip(nombre);
             string m = Encrip(marca);
             string d = Encrip(descripcion);
-            string u = Encrip(unidades);
+            string u = unidades;
             string p = Encrip(precio);
             using (MySqlConnection Conn = conection.ObtenerConexion())
             {
@@ -50,6 +49,45 @@ namespace PuntodeVenta
                 retorno = Comando.ExecuteNonQuery();
                 Conn.Close();
             }
+            return retorno;
+        }
+        public static int agregar_movimientos(int codigo, string nombre)
+        {
+            int retorno = 0;
+            //
+            /*
+            int id_user = 0;
+            string name = nombre;
+            string apaterno = nombre;
+            string amaterno = nombre;
+            using (MySqlConnection Conx = conection.ObtenerConexion())
+            {
+                MySqlCommand cm = new MySqlCommand(string.Format("select idUsuario from usuarios where nombre='{0}' and apaterno='{1}' and amaterno='{2}'", Encrip(name), Encrip(apaterno), Encrip(amaterno)), Conx);
+                MySqlDataReader readr = cm.ExecuteReader();
+                while (readr.Read())
+                {
+                    id_user = int.Parse(Desencrip(readr.GetString(0)));
+                }
+            }*/
+            //restar del inventario
+            using (MySqlConnection Conx = conection.ObtenerConexion())
+            {
+                MySqlCommand Comando = new MySqlCommand(string.Format
+                    ("update productos set unidades = unidades -1 where idProducto='{0}'", codigo), Conx);
+                retorno = Comando.ExecuteNonQuery();
+                Conx.Close();
+            }
+
+            //guardar movimientos
+            /*
+            using (MySqlConnection Conx = conection.ObtenerConexion())
+            {
+                MySqlCommand Comando = new MySqlCommand(string.Format
+                    ("insert into movimientos (Producto, Usuario) values('{0}','{1}')", codigo, nombre), Conx);
+                retorno = Comando.ExecuteNonQuery();
+                Conx.Close();
+            }
+            */
             return retorno;
         }
         public static int Borrar(int codigo)
@@ -88,7 +126,7 @@ namespace PuntodeVenta
                     pProducto.nombre = acciones.Desencrip(nombre);
                     pProducto.marca = acciones.Desencrip(marca);
                     pProducto.descripcion = acciones.Desencrip(descripcion);
-                    pProducto.unidades = acciones.Desencrip(unidades);
+                    pProducto.unidades = unidades;
                     pProducto.precio = acciones.Desencrip(precio);
                     pProducto.codigo = codigo;
 
@@ -96,6 +134,25 @@ namespace PuntodeVenta
                 }
                 Conx.Close();
                 return Lista;
+            }
+        }
+        public static void busqueda_codigos(ListView lista)
+        {
+            using (MySqlConnection Conx = conection.ObtenerConexion())
+            {
+                MySqlCommand cm = new MySqlCommand(string.Format("select c.nombres categoria, p.nombre, p.marca,p.descripcion, p.precio, p.idProducto from categorias c, productos p where c.idCategoria = p.Categoria"), Conx);
+                MySqlDataReader readr = cm.ExecuteReader();
+                while (readr.Read())
+                {
+                    ListViewItem item = new ListViewItem(readr.GetString(0));
+                    item.SubItems.Add(readr.GetString(5));
+                    item.SubItems.Add(Desencrip(readr.GetString(1)));
+                    item.SubItems.Add(Desencrip(readr.GetString(4)));
+                    item.SubItems.Add(Desencrip(readr.GetString(3)));
+                    item.SubItems.Add(Desencrip(readr.GetString(2)));
+                    lista.Items.Add(item);
+                }
+                Conx.Close();
             }
         }
         public static void Categoria(ComboBox Combobox1)
@@ -134,7 +191,7 @@ namespace PuntodeVenta
         {
             string codigo = "";
             char[] arreglo = cadena.ToCharArray();
-            
+
             for (int i = 0; i < cadena.Length; i++)
             {
                 if (i % 2 == 0)
@@ -148,7 +205,6 @@ namespace PuntodeVenta
                 codigo += arreglo[i];
             }
             return codigo;
-
         }
         public static void Inventario(ListView lista)
         {
@@ -162,7 +218,7 @@ namespace PuntodeVenta
                     item.SubItems.Add(Desencrip(readr.GetString(1)));
                     item.SubItems.Add(Desencrip(readr.GetString(2)));
                     item.SubItems.Add(Desencrip(readr.GetString(3)));
-                    item.SubItems.Add(Desencrip(readr.GetString(4)));
+                    item.SubItems.Add(readr.GetString(4));
                     item.SubItems.Add(Desencrip(readr.GetString(5)));
                     item.SubItems.Add(readr.GetString(6));
                     lista.Items.Add(item);
@@ -175,7 +231,7 @@ namespace PuntodeVenta
             int retorno = 0;
             using (MySqlConnection Conx = conection.ObtenerConexion())
             {
-                MySqlCommand cm = new MySqlCommand(string.Format("select nombre, password, id_status from usuarios where nombre='{0}' and password='{1}'", Encrip(usuario), Encrip(contraseña)), Conx);
+                MySqlCommand cm = new MySqlCommand(string.Format("select nombre, password, status from usuarios where nombre='{0}' and password='{1}'", Encrip(usuario), Encrip(contraseña)), Conx);
                 MySqlDataReader readr = cm.ExecuteReader();
                     while (readr.Read())
                     {
@@ -184,25 +240,25 @@ namespace PuntodeVenta
             }
             return retorno;
         }
-        public static void Status(ComboBox cb)
+        public static void usuario(string usuario, string contraseña, Label label1)
         {
             using (MySqlConnection Conx = conection.ObtenerConexion())
             {
-                MySqlCommand cm = new MySqlCommand("select nombre from status", Conx);
+                MySqlCommand cm = new MySqlCommand(string.Format("select nombre, apaterno, amaterno from usuarios where nombre='{0}' and password='{1}'", Encrip(usuario), Encrip(contraseña)), Conx);
                 MySqlDataReader readr = cm.ExecuteReader();
                 while (readr.Read())
                 {
-                    cb.Items.Add(readr.GetString(0));
+                    label1.Text = Desencrip(readr.GetString(0)) + " " + Desencrip(readr.GetString(1)) + " " + Desencrip(readr.GetString(2));
                 }
-                Conx.Close();
             }
         }
-        public static void Vender(string codigo,ListView lista)
+        public static float Vender(string codigo,ListView lista,List<int> articulos)
         {
+            float precio = 0;
             using (MySqlConnection Conx = conection.ObtenerConexion())
             {
                 int cod = int.Parse(codigo);
-                MySqlCommand cm = new MySqlCommand(string.Format("select nombre, marca, precio from productos where idProducto='{0}'",cod), Conx);
+                MySqlCommand cm = new MySqlCommand(string.Format("select nombre, marca, precio, idProducto from productos where idProducto='{0}'",cod), Conx);
                 MySqlDataReader readr = cm.ExecuteReader();
                 while (readr.Read())
                 {
@@ -210,9 +266,12 @@ namespace PuntodeVenta
                     item.SubItems.Add(Desencrip(readr.GetString(1)));
                     item.SubItems.Add(Desencrip(readr.GetString(2)));
                     lista.Items.Add(item);
+                    precio = float.Parse(Desencrip(readr.GetString(2)));
+                    articulos.Add(int.Parse(readr.GetString(3)));
                 }
                 Conx.Close();
             }
+            return precio;
         }
     }
 }

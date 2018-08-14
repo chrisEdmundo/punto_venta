@@ -136,7 +136,7 @@
             this.precio,
             this.codigo});
             this.listView1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView1.ForeColor = System.Drawing.SystemColors.Control;
+            this.listView1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.listView1.Location = new System.Drawing.Point(12, 111);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
@@ -144,6 +144,7 @@
             this.listView1.TabIndex = 29;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // categoria
             // 

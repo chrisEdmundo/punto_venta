@@ -41,6 +41,12 @@ namespace PuntodeVenta
             {
                 dataGridView1.DataSource = acciones.BuscarProductos();
             }
+            comboBox1.Text = "";
+            textBox6.Text = "";
+            textBox5.Text = "";
+            textBox2.Text = "";
+            textBox4.Text = "";
+            textBox3.Text = "";
         }
 
         private void btnDeleteProducts_Click(object sender, EventArgs e)
@@ -50,7 +56,7 @@ namespace PuntodeVenta
             if (confirmar == DialogResult.Yes)
             {
                 int r = acciones.Borrar(codigo);
-                dataGridView1.Rows.RemoveAt(celda);
+                dataGridView1.DataSource = acciones.BuscarProductos();
             }
         }
 
