@@ -258,7 +258,7 @@ namespace PuntodeVenta
             using (MySqlConnection Conx = conection.ObtenerConexion())
             {
                 int cod = int.Parse(codigo);
-                MySqlCommand cm = new MySqlCommand(string.Format("select nombre, marca, precio, idProducto from productos where idProducto='{0}'",cod), Conx);
+                MySqlCommand cm = new MySqlCommand(string.Format("select nombre, marca, precio, idProducto from productos where idProducto='{0}' and unidades>0",cod), Conx);
                 MySqlDataReader readr = cm.ExecuteReader();
                 while (readr.Read())
                 {
@@ -273,5 +273,19 @@ namespace PuntodeVenta
             }
             return precio;
         }
+        public static int modificar(string nombre_edit, string marca_edit, string descripcion, string unidades, string precio,string code)
+        {
+            int retorno = 0;
+            using (MySqlConnection Conx = conection.ObtenerConexion())
+            {
+                MySqlCommand Comando = new MySqlCommand(string.Format
+                    ("Update productos set nombre='{0}',marca='{1}',descripcion='{2}',unidades='{3}',precio='{4}' where idProducto='{5}'", Encrip(nombre_edit), Encrip(marca_edit), Encrip(descripcion), unidades, Encrip(precio), code), Conx);
+                retorno = Comando.ExecuteNonQuery();
+                Conx.Close();
+
+            }
+            return retorno;
+        }
+        
     }
 }

@@ -37,6 +37,7 @@
             this.btnVenta = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BarraTitulo = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -82,10 +83,10 @@
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Image = global::PuntodeVenta.Properties.Resources.blue_users_customers_clients_people_12438__1_;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(2, 258);
+            this.button6.Location = new System.Drawing.Point(-3, 247);
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(200, 37);
+            this.button6.Size = new System.Drawing.Size(188, 37);
             this.button6.TabIndex = 6;
             this.button6.Text = "   Registro";
             this.button6.UseVisualStyleBackColor = true;
@@ -118,10 +119,10 @@
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.Image = global::PuntodeVenta.Properties.Resources.blue_copy_paste_12539;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 197);
+            this.button4.Location = new System.Drawing.Point(-5, 197);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(202, 37);
+            this.button4.Size = new System.Drawing.Size(200, 37);
             this.button4.TabIndex = 3;
             this.button4.Text = "Recibos";
             this.button4.UseVisualStyleBackColor = true;
@@ -194,6 +195,7 @@
             // 
             // BarraTitulo
             // 
+            this.BarraTitulo.Controls.Add(this.label3);
             this.BarraTitulo.Controls.Add(this.label2);
             this.BarraTitulo.Controls.Add(this.label1);
             this.BarraTitulo.Controls.Add(this.pictureBox5);
@@ -205,10 +207,20 @@
             this.BarraTitulo.Location = new System.Drawing.Point(55, 0);
             this.BarraTitulo.Margin = new System.Windows.Forms.Padding(2);
             this.BarraTitulo.Name = "BarraTitulo";
-            this.BarraTitulo.Size = new System.Drawing.Size(817, 49);
+            this.BarraTitulo.Size = new System.Drawing.Size(867, 49);
             this.BarraTitulo.TabIndex = 1;
             this.BarraTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.BarraTitulo_Paint);
             this.BarraTitulo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BarraTitulo_MouseMove);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(31, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "label3";
+            this.label3.Visible = false;
             // 
             // label2
             // 
@@ -231,12 +243,13 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "USUARIO";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Image = global::PuntodeVenta.Properties.Resources.file_rounded_empty_sheet_icon_icons_com_73253;
-            this.pictureBox5.Location = new System.Drawing.Point(665, 2);
+            this.pictureBox5.Location = new System.Drawing.Point(715, 2);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(35, 31);
@@ -249,7 +262,7 @@
             // 
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.Image = global::PuntodeVenta.Properties.Resources._1492790945_39minimize_84242;
-            this.pictureBox6.Location = new System.Drawing.Point(665, 2);
+            this.pictureBox6.Location = new System.Drawing.Point(715, 2);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(35, 31);
@@ -262,7 +275,7 @@
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.Image = global::PuntodeVenta.Properties.Resources.windowminimize_104316;
-            this.pictureBox3.Location = new System.Drawing.Point(721, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(771, 2);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(32, 31);
@@ -275,7 +288,7 @@
             // 
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.Image = global::PuntodeVenta.Properties.Resources.mbrilogout_99583;
-            this.pictureBox4.Location = new System.Drawing.Point(773, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(823, 2);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(35, 31);
@@ -305,7 +318,7 @@
             this.panelContenerdo.Location = new System.Drawing.Point(55, 49);
             this.panelContenerdo.Margin = new System.Windows.Forms.Padding(2);
             this.panelContenerdo.Name = "panelContenerdo";
-            this.panelContenerdo.Size = new System.Drawing.Size(817, 453);
+            this.panelContenerdo.Size = new System.Drawing.Size(867, 453);
             this.panelContenerdo.TabIndex = 2;
             this.panelContenerdo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenerdo_Paint);
             // 
@@ -313,7 +326,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(872, 502);
+            this.ClientSize = new System.Drawing.Size(922, 502);
             this.Controls.Add(this.panelContenerdo);
             this.Controls.Add(this.BarraTitulo);
             this.Controls.Add(this.MenuVertical);
@@ -354,6 +367,7 @@
         private System.Windows.Forms.Button button6;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

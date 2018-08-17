@@ -17,6 +17,12 @@ namespace PuntodeVenta
         string marca = "";
         int codigo = 0;
         int celda = 0;
+        string nombre_edit = "";
+        string marca_edit = "";
+        string descripcion = "";
+        string unidades = "";
+        string precio = "";
+        string code = "";
 
         public producto()
         {
@@ -77,6 +83,17 @@ namespace PuntodeVenta
         private void label8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void cellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            nombre_edit = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            marca_edit = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            descripcion = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+            unidades = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
+            precio = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
+            code = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
+            int retorno = acciones.modificar(nombre_edit,marca_edit,descripcion,unidades,precio,code);
         }
     }
 }

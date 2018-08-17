@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,7 +15,7 @@ namespace PuntodeVenta
     {
         List<int> articulos = new List<int>();
         float total = 0;
-        string usuario = "";
+        string usuario;
         public Ventas(string user)
         {
             InitializeComponent();
@@ -23,9 +24,24 @@ namespace PuntodeVenta
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            total += acciones.Vender(textBox1.Text,listView1,articulos);
-            label6.Text = total + "";
-            textBox1.Text = "";
+            string pattern = "(^[0-9]+$)";
+            if (Regex.IsMatch(textBox1.Text, pattern) == true)
+            {
+                if (int.Parse(textBox1.Text) > 0)
+                {
+                    float precio = acciones.Vender(textBox1.Text, listView1, articulos);
+                    if (precio > 0)
+                    {
+                        total += precio;
+                        label6.Text = total + "";
+                        textBox1.Text = "";
+                    }
+                    else
+                    {
+                        MessageBox.Show("el articulo no esta disponible");
+                    }
+                }
+            }
         }
 
         private void Ventas_Load(object sender, EventArgs e)

@@ -58,10 +58,10 @@ namespace PuntodeVenta
 
         private void btnIngresar_Click_1(object sender, EventArgs e)
         {
-            int r= acciones.Login(textBox1.Text, textBox2.Text);
-            if (r > 0)
+            int nivel= acciones.Login(textBox1.Text, textBox2.Text);
+            if (nivel > 0)
             {
-                Form1 form = new Form1(r, usuario);
+                Form1 form = new Form1(nivel, usuario);
                 acciones.usuario(textBox1.Text, textBox2.Text, form.label1);
                 form.Show();
                 Login form2 = new Login();

@@ -43,11 +43,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.listView2 = new System.Windows.Forms.ListView();
             this.categoria = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.nombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.descripcion = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.codigo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.nombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.descripcion = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // label1
@@ -77,7 +77,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 355);
+            this.textBox1.Location = new System.Drawing.Point(29, 350);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(181, 21);
             this.textBox1.TabIndex = 5;
@@ -100,9 +100,9 @@
             this.marca,
             this.precio});
             this.listView1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView1.Location = new System.Drawing.Point(24, 76);
+            this.listView1.Location = new System.Drawing.Point(12, 76);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(450, 238);
+            this.listView1.Size = new System.Drawing.Size(387, 238);
             this.listView1.TabIndex = 10;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -127,7 +127,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(369, 328);
+            this.label4.Location = new System.Drawing.Point(314, 328);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 19);
             this.label4.TabIndex = 11;
@@ -163,7 +163,7 @@
             this.btnSave.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSave.Image = global::PuntodeVenta.Properties.Resources.shoppingcart_accept_compra_12832;
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(309, 403);
+            this.btnSave.Location = new System.Drawing.Point(254, 403);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(145, 49);
@@ -177,7 +177,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(351, 355);
+            this.label5.Location = new System.Drawing.Point(296, 355);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(24, 25);
             this.label5.TabIndex = 12;
@@ -187,7 +187,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(398, 355);
+            this.label6.Location = new System.Drawing.Point(343, 355);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 24);
             this.label6.TabIndex = 13;
@@ -204,7 +204,7 @@
             this.columnHeader1});
             this.listView2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.listView2.Location = new System.Drawing.Point(480, 76);
+            this.listView2.Location = new System.Drawing.Point(423, 76);
             this.listView2.MultiSelect = false;
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(399, 238);
@@ -217,38 +217,36 @@
             this.categoria.Text = "categoria";
             this.categoria.Width = 66;
             // 
+            // codigo
+            // 
+            this.codigo.Text = "codigo";
+            this.codigo.Width = 80;
+            // 
             // nombre
             // 
-            this.nombre.DisplayIndex = 1;
             this.nombre.Text = "nombre";
             this.nombre.Width = 58;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.DisplayIndex = 2;
-            this.columnHeader1.Text = "marca";
-            this.columnHeader1.Width = 52;
-            // 
-            // descripcion
-            // 
-            this.descripcion.Text = "descripcion";
-            this.descripcion.Width = 100;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "precio";
             this.columnHeader2.Width = 50;
             // 
-            // codigo
+            // descripcion
             // 
-            this.codigo.Text = "codigo";
-            this.codigo.Width = 80;
+            this.descripcion.Text = "descripcion";
+            this.descripcion.Width = 100;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "marca";
+            this.columnHeader1.Width = 52;
             // 
             // Ventas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(891, 463);
+            this.ClientSize = new System.Drawing.Size(843, 463);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
